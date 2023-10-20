@@ -10,6 +10,7 @@ import RealmSwift
 
 class TodoListRealm: Object {
     @Persisted var title: String = ""
+    
 }
 
 class RealmController: UIViewController {
